@@ -1,7 +1,7 @@
 # Led Matrix Snake  
 ## Running on an ESP32, written in Rust
 
-This simple project was a way for me to practice some Rust basics and get the hang of using it in an embedded environment. In this case, I used Espressif’s ESP32 since Rust’s ecosystem for ESP32 microcontrollers has matured significantly over the years.  
+This simple project was a way for me to practice some Rust basics and get the hang of using it in an embedded environment. In this case, I used Espressif’s ESP32 since Rust’s ecosystem for ESP32 microcontrollers has matured significantly over the years and I had experience with programming ESP32s for other projects.  
 The Led Matrix Snake takes advantage of esp-idf’s hardware-abstraction libraries to interface with the ESP32’s GPIO pins. I used Rust’s `smart_led` crate with a WS2812 LED driver to send Snake game information to an 8×8 LED matrix.
 
 ### Initial Implementation
